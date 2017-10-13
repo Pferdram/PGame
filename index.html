@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <title>PGame</title>
+    <meta charset="utf-8">
+   <style>
+       #mother{
+           position: relative;
+           width:320px;
+           height:240px;
+           border: 5px solid green;
+       }
+
+       #rect{
+           position:absolute;
+           border:1px solid red;
+           background:transparent;
+           
+       }
+   
+   </style>
+    
+</head>
+<body>
+    
+    <div id="mother">
+        <div id="rect"></div> 
+        <video id="myVideo" width="320" height="240" preload autoplay loop muted></video>
+    </div>
+
+    <script src="./node_modules/tracking/build/tracking-min.js"></script>
+    <script src="./node_modules/tracking/build/data/mouth.js"></script>
+
+    <script src="./index.js"></script>
+</body>
+</html>

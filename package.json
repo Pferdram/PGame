@@ -1,0 +1,23 @@
+{
+  "name": "pgame",
+  "version": "1.0.0",
+  "description": "could be a game or something funny",
+  "main": "index.js",
+  "dependencies": {
+    "tracking": "^1.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pferdram/PGame.git"
+  },
+  "author": "pferdram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pferdram/PGame/issues"
+  },
+  "homepage": "https://github.com/Pferdram/PGame#readme"
+}
